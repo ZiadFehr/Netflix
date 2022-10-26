@@ -1,0 +1,22 @@
+.bkg{
+    background-image: url("../Images/background.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#reg{
+    color:rgb(176, 11, 176);
+    font-size: 60px;
+    font-family: 'bebas_neueregular',Arial,sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../Fonts/webfontkit-20221026-135610/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/webfontkit-20221026-135610/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
