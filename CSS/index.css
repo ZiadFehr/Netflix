@@ -6,7 +6,7 @@ html, body {
     width: 100%;
 }
 #top{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("../Images/background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("../Media/background.jpg");
     background-color: #cccccc;
     height: 100vh;
     width: 100vw;
@@ -72,6 +72,7 @@ html, body {
     border: #cccccc;
     text-align: left;
     justify-content: center;
+    color: black !important;
 }
 #gs #sub{
     font-size: 30px;
@@ -89,11 +90,11 @@ html, body {
 hr{
     margin: 0%;
     height: 10px;
-    background-color: rgb(69, 61, 61);
+    background-color: rgb(47, 44, 44);
     width: 100%;
     border: #cccccc;
 }
-#sec{
+#block{
     background-color: black;
 }
 #mid{
@@ -117,10 +118,114 @@ hr{
     margin-bottom: -320px;
 }
 #mid video{
-    right: 0%;
-    bottom: 380px;
+    right: -1.9%;
+    bottom: 381px;
     float: right;
     position: relative;
-    width: 83%;
+    width: 85%;
     margin-bottom: -300px;
+}
+#mid .st{
+    height: 320px;
+    width: 1000px;
+    float: left;
+    position: relative;
+    top: -150px;
+    left: 10%;
+    margin-bottom: -350px;
+}
+#mid #dlblock{
+    border: 2px solid hsla(0,0%,100%,.25);
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 15px;
+    position: relative;
+    height: 120px;
+    width: 25%;
+    right: 20%;
+    margin-top: 70px;
+}
+#mid #dlblock .stictxt{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+#mid #dlblock .stictxt span::before{
+    content: "\A";
+    white-space: pre;
+    display: table;
+}
+#mid #dlblock .stic{
+    width: 48px;
+    height: 48px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#txt2{
+    float: right;
+    justify-content: flex-end;
+    display: block;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 200px;
+    line-height: 0.9;
+}
+.mid2{
+    display: flex;
+}
+.kids{
+    padding-left: 120px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+#block #midq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#block #midq h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.1;
+    margin-top: 60px;
+    margin-bottom: 8px;
+    font-weight: 400px;
+}
+#midq li{
+    list-style: none;
+    
+}
+#midq button{
+    border: 0;
+    font-weight: 400;
+    padding: 25px 0 25px 25px;
+    margin-bottom: 1px;
+    background-color:  rgb(58, 55, 55);
+    position: relative;
+    width: 60%;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 400px;
+    font-size: 30px;
+    overflow: visible;
+}
+#midq hr{
+    width: 100%;
+    background-color: black;
+    height: 0.5px;
+}
+#dpdn i.fa{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 30px;
+    float: right;
+    margin-right: 30px;
 }
