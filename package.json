@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "circletype": "^2.3.0",
     "core-js": "^3.26.0"
   }
 }
