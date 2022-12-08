@@ -1,8 +1,13 @@
-const http = require('http');
-const fs = require('fs');
+var http = require('http');
+var fs = require('fs');
+var _ = require('lodash');
 
 const server = http.createServer((req, res) => {
-
+    //lodash
+    const greet = _.once(() => {
+        console.log('hello');
+    });
+    greet();
     res.setHeader('Content-Type', 'text/html');
     let path = './html/';
     switch (req.url) {
@@ -26,7 +31,6 @@ const server = http.createServer((req, res) => {
     
     fs.readFile(path, (err, data) => {
         if (err) throw err;
-        //res.write();
         res.end(data);
     })
 });
