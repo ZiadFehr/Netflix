@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ZiadFehr/Netflix/issues"
   },
-  "homepage": "https://github.com/ZiadFehr/Netflix#readme"
+  "homepage": "https://github.com/ZiadFehr/Netflix#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
